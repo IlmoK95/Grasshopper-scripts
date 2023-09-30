@@ -18,6 +18,7 @@
 <h3>Script structure:</h3>
 
 <h4>The most important methods:</h4>
+
 - ```def Roads(StartPoint, IsBranch)```:
   - This is the first method to be executed in the script. The Street network is generated randomly, following certain rules and 
      constraints:
