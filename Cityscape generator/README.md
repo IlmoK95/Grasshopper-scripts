@@ -22,7 +22,7 @@ The most important methods:
   - This is the first method to be executed in the script. The Street network is generated randomly, following certain rules and 
      constraints:
      1) the road starts from the indicated starting point (StartPoint)
-     2) If the IsBranch = True, it means that the road generated is a branch 
+     2) If the ```IsBranch = True```, it means that the road generated is a branch 
         from main road. A Branch is generated with recursive computing principle: The method Roads is randomly called inside the method 
         itself, starting a new road (branch)
      3) The length of main road is 10 units, and branch is 5
