@@ -1,5 +1,5 @@
 
-<h2>Waterflow simulator: </h2>
+<h2>Waterflow simulator:</h2>
 
 After measuring the stopping/dropping angle on a given texture / surface, the script to simulate the movement of water droplets is relatively simple: 
  - if the angle between the xy-plane and the plane perpendicular to the surface’s normal vector at a given point is between the critical movement 
