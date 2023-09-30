@@ -5,7 +5,7 @@
 - I focused on a few different relations that affect the cityscape, to make it relatively realistic.
 
 
-Solution:
+<h3>Solution:</h3>
 
 - To divide the terrain generated in Grasshopper for different districts, I divided the point cloud (from which the terrain was made) into separate 
  lists of points, each of which represent their own district: 
@@ -15,9 +15,9 @@ Solution:
 - These lists are input for python script, and buildings/ road is generated with python algorithm. each point work as an insertion point for building, tree or as a start/end 
   for a road
 
-Script structure:
+<h3>Script structure:</h3>
 
-The most important methods:
+<h4>The most important methods:</h4>
 - ```def Roads(StartPoint, IsBranch)```:
   - This is the first method to be executed in the script. The Street network is generated randomly, following certain rules and 
      constraints:
