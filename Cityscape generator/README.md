@@ -5,11 +5,11 @@ Design problem to generate a cityscape:
 - I focused on a few different relations that affect the cityscape, to make it relatively realistic.
 
 
--To divide the terrain generated in Grasshopper for different districts, I divided the point cloud (from which the terrain was made) into separate 
-lists of points, each of which represent their own district: 
-  -list of industrial points,
+- To divide the terrain generated in Grasshopper for different districts, I divided the point cloud (from which the terrain was made) into separate 
+ lists of points, each of which represent their own district: 
+  - list of industrial points,
   - center points, suburban points, forest points, etc.
--The location of the district points can be changed via grasshopper slider
--These lists are input for python script, and buildings/ road is generated with python algorithm. each point work as an insertion point for building, tree or as a start/end 
+- The location of the district points can be changed via grasshopper slider
+- These lists are input for python script, and buildings/ road is generated with python algorithm. each point work as an insertion point for building, tree or as a start/end 
   for a road
 
