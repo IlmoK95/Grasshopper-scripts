@@ -27,4 +27,17 @@
         from main road. A Branch is generated with recursive computing principle: The method Roads is randomly called inside the method 
         itself, starting a new road (branch)
      3) The length of main road is 10 units, and branch is 5
+    
+```def Center():```
+```def SubUrban():```
+```def Industrial():```
+```def Forest():```
+
+- These methods generate a district indicated in their names. Buildings are premade in Rhino. When generating a district, few things are considered:
+  1) neighbouring districts. the method ```IsNeighbourWith(point, district_points)``` returns ```True```, 
+    if point is close to other district (physical distance as a measurement). This affects the height of the building: for example Closer to 
+    center, higher the building,
+  2) Doesn’t overlap with the roads
+     Sometimes this happens, since the buildings are located slightly off the axis
+  3) Buildings face the city center
 
